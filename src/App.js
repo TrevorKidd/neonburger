@@ -1,18 +1,12 @@
 import React, { Component } from "react"
-import { Navbar, NavbarBrand } from "reactstrap"
-import Welcome from "./components/WelcomeComponent"
+import Main from "./components/MainComponent"
 import "./App.css"
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar dark color="primary">
-          <div className="container">
-            <NavbarBrand href="/">Neon Burger</NavbarBrand>
-          </div>
-        </Navbar>
-        <Welcome />
+        <Main />
       </div>
     )
   }
