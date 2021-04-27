@@ -1,31 +1,37 @@
-.logo-text {
-  color: white;
-  font-size: 95px;
-  font-family: "Sarina", cursive;
-  animation: glow 1.75s ease-in-out infinite alternate;
-}
-
 .App {
-  text-align: center;
   font-family: "Open Sans", sans-serif;
   background-color: black;
   color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* font-size: calc(10px + 2vmin); */
-  color: white;
-  font-size: 95px;
+.card-title {
+  font-weight: 500;
+  font-size: 1.25rem;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  color: #3046c5;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.site-footer {
+  padding: 20px 0;
+}
+
+.jumbotron {
+  padding: 30px;
+  background-image: radial-gradient(at bottom, #d30cb8, #55054a 35%, #000);
+  margin: 0;
+  padding: 20px 0;
+}
+
+.navbar-dark {
+  background-color: #000a3d;
 }
 
 .row-content {

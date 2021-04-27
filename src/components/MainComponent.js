@@ -1,5 +1,6 @@
 import React, { Component } from "react"
-import { Navbar } from "reactstrap"
+import Header from "./HeaderComponent"
+import Footer from "./FooterComponent"
 import Welcome from "./WelcomeComponent"
 import { FOODS } from "../shared/foods"
 
@@ -13,14 +14,9 @@ class Main extends Component {
   render() {
     return (
       <div>
-        <Navbar dark color="primary">
-          <div>
-            <h1 className="logo-text" href="/">
-              Neon Burger
-            </h1>
-          </div>
-        </Navbar>
+        <Header />
         <Welcome className="container" foods={this.state.foods} />
+        <Footer />
       </div>
     )
   }
